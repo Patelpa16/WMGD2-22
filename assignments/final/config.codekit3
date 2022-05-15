@@ -9,14 +9,6 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -28,14 +20,6 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/deploy\/img\/favicon.ico" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/favicon.ico",
-      "oF" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -55,19 +39,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/design\/Screen Shot 2022-05-04 at 11.08.13 PM.png" : {
-      "ft" : 32768,
-      "iS" : 998711,
-      "oA" : 0,
-      "oAP" : "\/design\/Screen Shot 2022-05-04 at 11.08.13 PM.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
@@ -283,28 +254,12 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/section-1.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-1.html",
-      "oF" : 0
-    },
     "\/dev\/section-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/section-1.html",
-      "oF" : 0
-    },
-    "\/dev\/section-2.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-2.html",
       "oF" : 0
     },
     "\/dev\/section-2.kit" : {
@@ -324,11 +279,10 @@
   },
   "projectAttributes" : {
     "creationDate" : 607448965.33801401,
-    "displayValue" : "finals",
+    "displayValue" : "final",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-forest",
-    "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 674277290.03034902
+    "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
