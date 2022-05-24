@@ -1,0 +1,44 @@
+.header {
+    background: #333333;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: right;
+    align-items: center;
+    flex-direction: row;
+    padding: 8px 32px;
+    gap: 16px;
+    width: 1440px;
+    height: 80px; 
+
+    
+
+}
+
+.header__logo{
+    width: 50px;
+
+}
+.header__link{
+    color: #EBEBEB;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;  
+    
+
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    @include md{
+        font-size: 16px;
+    }
+
+}

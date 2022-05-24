@@ -1,0 +1,26 @@
+.footer{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;  
+    height: 80px;
+    background: #333333;
+    
+}
+
+.footer__link{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    padding: 100px 16px;
+    /* identical to box height, or 375% */
+    //align-items: center;
+    //text-align: center;
+    color: #EBEBEB;
+    
+}
