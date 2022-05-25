@@ -6,7 +6,7 @@
   height: 80px;
   min-width: 1440px;
   padding: 0 31.5px;
-  background: #333333;
+  background: $gray;
 }
 
 .white-space-1 {
@@ -44,7 +44,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 86px;
-  color: #EBEBEB;
+  color: $white;
 }
 
 .label-3 {
@@ -65,7 +65,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 63px;
-  color: #EBEBEB;
+  color: $white;
 }
 
 .label-4 {
@@ -86,7 +86,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 75px;
-  color: #EBEBEB;
+  color: $white;
 }
 
 .label-2 {
@@ -106,7 +106,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 98px;
-  color: #EBEBEB;
+  color: $white;
 }
 
 .label {
@@ -127,7 +127,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 50px;
-  color: #EBEBEB;
+  color: $white;
 }
 
 .label-1 {
@@ -165,10 +165,10 @@ height: 40px;
 
 /* White */
 
-background: #FFFFFF;
-/* #EBEBEB */
+background: $white;
+/* $white */
 
-border: 2px solid #EBEBEB;
+border: 2px solid $white;
 
 }
 
