@@ -1,44 +1,223 @@
-.header {
-    background: #333333;
-    padding: 8px;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    text-align: right;
-    align-items: center;
-    flex-direction: row;
-    padding: 8px 32px;
-    gap: 16px;
-    width: 1440px;
-    height: 80px; 
 
-    
+.navigation-bar {
+  align-items: center;
+  background-color: var(--mine-shaft);
+  display: flex;
+  height: 80px;
+  min-width: 1440px;
+  padding: 0 31.5px;
+  background: #333333;
+}
+
+.white-space-1 {
+  height: 32px;
+  margin-left: 16px;
+  width: 24px;
+}
+
+.vector-22 {
+  height: 20px;
+  margin-left: 15px;
+  width: 2px;
+}
+
+.vector-21 {
+  height: 20px;
+  margin-left: 16px;
+  width: 2px;
+}
+
+.tabs {
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  margin-left: 16px;
+  min-width: 436px;
+}
+
+.tab-3 {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  margin-left: 16px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 86px;
+  color: #EBEBEB;
+}
+
+.label-3 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 70px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab-4 {
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  margin-left: 16px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 63px;
+  color: #EBEBEB;
+}
+
+.label-4 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 47px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab-2 {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  margin-left: 16px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 75px;
+  color: #EBEBEB;
+}
+
+.label-2 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 59px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab {
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 98px;
+  color: #EBEBEB;
+}
+
+.label {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 82px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab-1 {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  margin-left: 16px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 50px;
+  color: #EBEBEB;
+}
+
+.label-1 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 34px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.navigation-bar-1 {
+  height: 72px;
+  width: 211px;
+}
+
+.avatar {
+  height: 40px;
+  margin-left: 15px;
+  width: 40px;
+}
+
+.search-bar {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  margin-left: 16px;
+  overflow: hidden;
+  width: 384px;
+
+  box-sizing: border-box;
+
+height: 40px;
+
+/* White */
+
+background: #FFFFFF;
+/* #EBEBEB */
+
+border: 2px solid #EBEBEB;
 
 }
 
-.header__logo{
-    width: 50px;
-
+.search {
+  color: var(--wild-blue-yonder);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 4px;
+  margin-left: 16px;
+  white-space: nowrap;
+  width: 264px;
 }
-.header__link{
-    color: #EBEBEB;
-    margin-left: 20px;
-    text-decoration: none;
-    text-align: right;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;  
-    
 
+.search__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+/* Body */
 
-    &:hover {
-        opacity: 0.5;
-    }
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #A6B1E1;
+}
 
-    @include md{
-        font-size: 16px;
-    }
+.single-icon-button {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 0px 4px 4px 0px;
+  display: flex;
+  height: 40px;
+  margin-left: 60px;
+  min-width: 44px;
+  padding: 0 9.5px;
+}
 
+.iconsearch {
+  height: 24px;
+  width: 24px;
+}
+
+.white-space {
+  height: 32px;
+  margin-left: 16px;
+  width: 169px;
 }
