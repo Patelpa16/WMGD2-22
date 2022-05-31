@@ -1,12 +1,21 @@
 
 .navigation-bar {
-  align-items: center;
-  background-color: var(--mine-shaft);
+  //align-items: center;
+  //background-color: var(--mine-shaft);
+  //display: flex;
+  //height: 80px;
+  //min-width: 1440px;
+  //padding: 0 31.5px;
+  //background: #333333;
+
+  text-decoration: none;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;  
   height: 80px;
-  min-width: 1440px;
-  padding: 0 31.5px;
-  background: $gray;
+  background: #333333;
 }
 
 .white-space-1 {
@@ -44,7 +53,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 86px;
-  color: $white;
+  color: #EBEBEB;
 }
 
 .label-3 {
@@ -65,7 +74,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 63px;
-  color: $white;
+  color: #EBEBEB;
 }
 
 .label-4 {
@@ -86,7 +95,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 75px;
-  color: $white;
+  color: #EBEBEB;
 }
 
 .label-2 {
@@ -106,7 +115,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 98px;
-  color: $white;
+  color: #EBEBEB;
 }
 
 .label {
@@ -127,7 +136,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 50px;
-  color: $white;
+  color: #EBEBEB;
 }
 
 .label-1 {
@@ -165,10 +174,10 @@ height: 40px;
 
 /* White */
 
-background: $white;
-/* $white */
+background: #FFFFFF;
+/* #EBEBEB */
 
-border: 2px solid $white;
+border: 2px solid #EBEBEB;
 
 }
 

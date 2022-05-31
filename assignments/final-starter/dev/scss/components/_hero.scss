@@ -1,9 +1,80 @@
-.hero{
-    background-image: url('../img/philly.png');
-    background-position: center;
-    background-size: cover;
-    height: 358px;
-    display:flex
-    flex-direction; 
+.hero {
+    //background-image: url('../img/philly.png');
+    // background-position: center;
+    // background-size: cover;
+    // height: 358px;
+    // display:flex
+    // flex-direction; 
 
+}
+
+.hero-image {
+    // height: 616px;
+    // margin-right: 1px;
+    // margin-top: 72px;
+    // width: 1408px;
+    // // align-items: center;
+    // display: flex;
+    // min-width: 1169px;
+    // justify-content: flex-end;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    gap: 24px;
+    padding-top: 75px;
+}
+
+.title {
+    height: 73px;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: 47px;
+    text-align: center;
+    // width: 1168px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+    color: #2E2885;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-4 {
+    height: 103px;
+    letter-spacing: 0;
+    margin-top: -1px;
+    text-align: center;
+    width: 70%;
+    background: #5012B5;
+    border-radius: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
