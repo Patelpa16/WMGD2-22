@@ -324,7 +324,8 @@ template {
   border-radius: 4px;
   display: flex;
   margin-left: 16px;
-  min-width: 436px; }
+  min-width: 436px;
+  color: #EBEBEB; }
 
 .tab-3 {
   align-items: flex-start;

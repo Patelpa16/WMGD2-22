@@ -1,0 +1,1386 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,600");
+
+.category-page-desktop-hi-fi {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1720px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.navigation-bar {
+  align-items: center;
+  background-color: var(--mine-shaft);
+  display: flex;
+  height: 80px;
+  min-width: 1440px;
+  padding: 0 32px;
+}
+
+.avatar {
+  height: 40px;
+  margin-left: 16px;
+  width: 40px;
+}
+
+.white-space-1 {
+  height: 32px;
+  margin-left: 16px;
+  width: 24px;
+}
+
+.navigation-bar-1 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 211px;
+}
+
+.title-1 {
+  color: var(--ebebeb);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 400;
+  height: 72px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  width: 211px;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vector-2 {
+  height: 20px;
+  margin-left: 15px;
+  width: 2px;
+}
+
+.white-space {
+  height: 32px;
+  margin-left: 16px;
+  width: 169px;
+}
+
+.tabs {
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  margin-left: 16px;
+  min-width: 436px;
+}
+
+.tab-1 {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  margin-left: 16px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 50px;
+}
+
+.label-1 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 34px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab-2 {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  margin-left: 16px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 75px;
+}
+
+.label-2 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 59px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab {
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 98px;
+}
+
+.label {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 82px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab-3 {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  height: 40px;
+  margin-left: 16px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 86px;
+}
+
+.label-3 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 70px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tab-4 {
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  margin-left: 16px;
+  overflow: hidden;
+  padding: 10px 8px;
+  width: 63px;
+}
+
+.label-4 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 47px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.search-bar {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  margin-left: 16px;
+  overflow: hidden;
+  width: 384px;
+}
+
+.search {
+  color: var(--blueberry-cream);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 4px;
+  margin-left: 16px;
+  white-space: nowrap;
+  width: 264px;
+}
+
+.single-icon-button {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 0px 4px 4px 0px;
+  display: flex;
+  height: 40px;
+  margin-left: 60px;
+  min-width: 44px;
+  padding: 0 10px;
+}
+
+.iconsearch {
+  height: 24px;
+  width: 24px;
+}
+
+.footer {
+  align-items: flex-start;
+  background-color: var(--mine-shaft);
+  display: flex;
+  height: 92px;
+  margin-right: -4px;
+  margin-top: 192px;
+  min-width: 1444px;
+  padding: 15px 394px;
+}
+
+.footer-item {
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-left: 32px;
+  min-width: 46px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.help {
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-left: 32px;
+  min-width: 35px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.copyright {
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 60px;
+  min-width: 83px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.privacy {
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-left: 32px;
+  min-width: 53px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.terms {
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-left: 32px;
+  min-width: 47px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.place {
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-left: 32px;
+  min-width: 51px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.feedback {
+  height: 60px;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin-left: 32px;
+  min-width: 71px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 1272px;
+  margin-right: -284.04px;
+  margin-top: 84px;
+  min-width: 1749px;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 661px;
+  width: 381px;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 124px;
+  width: 381px;
+}
+
+.community {
+  align-self: flex-end;
+  color: var(--eggplant);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 700;
+  height: 54px;
+  letter-spacing: 0;
+  line-height: 24px;
+  width: 340px;
+}
+
+.overlap-group29 {
+  height: 44px;
+  margin-top: 26px;
+  position: relative;
+  width: 345px;
+}
+
+.show-14-categories {
+  color: var(--eggplant);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 700;
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  width: 345px;
+}
+
+.text-1 {
+  height: 12px;
+  left: 57px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 15px;
+}
+
+.flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 197px;
+  margin-right: 54px;
+  margin-top: 12px;
+  min-width: 245px;
+}
+
+.frame-116 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  min-height: 172px;
+  width: 24px;
+}
+
+.checkbox {
+  border-radius: 4px;
+  height: 24px;
+  margin-top: 15px;
+  width: 24px;
+}
+
+.checkbox-1 {
+  border-radius: 4px;
+  height: 24px;
+  width: 24px;
+}
+
+.flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 19px;
+  min-height: 197px;
+  width: 202px;
+}
+
+.flex-col-item {
+  height: 37px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 3px;
+  width: 179px;
+}
+
+.include-nearby-areas {
+  height: 37px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 3px;
+  width: 202px;
+}
+
+.search-title-only {
+  height: 37px;
+  letter-spacing: 0;
+  line-height: 24px;
+  width: 179px;
+}
+
+.flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-top: 15px;
+  min-height: 313px;
+  width: 289px;
+}
+
+.purple-map {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/screen-shot-2022-03-09-at-11-57-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 225px;
+  width: 289px;
+}
+
+.name {
+  align-self: center;
+  height: 31px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 4px;
+  margin-top: 2px;
+  text-align: center;
+  width: 275px;
+}
+
+.text-button-fixed-container {
+  align-items: flex-start;
+  display: flex;
+  height: 43px;
+  margin-top: 12px;
+  min-width: 278px;
+}
+
+.text-button-fixed-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: var(--black-2);
+  border-radius: 40px;
+  display: flex;
+  height: 42px;
+  overflow: hidden;
+  width: 134px;
+}
+
+.button-fixed {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -2px;
+  text-align: center;
+  width: 134px;
+}
+
+.text-button-fixed-2 {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  border-radius: 40px;
+  display: flex;
+  height: 42px;
+  margin-left: 10px;
+  overflow: hidden;
+  width: 134px;
+}
+
+.flex-col-4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  min-height: 1262px;
+  width: 1353px;
+}
+
+.overlap-group {
+  height: 127px;
+  margin-top: 10px;
+  position: relative;
+  width: 1353px;
+}
+
+.component-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 127px;
+  left: 708px;
+  min-width: 645px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group-1 {
+  height: 126px;
+  position: relative;
+  width: 645px;
+}
+
+.group-21 {
+  align-items: center;
+  display: flex;
+  height: 18px;
+  left: 145px;
+  min-width: 115px;
+  position: absolute;
+  top: 75px;
+}
+
+.location {
+  height: 16px;
+  width: 16px;
+}
+
+.message {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 4px;
+  white-space: nowrap;
+  width: 93px;
+}
+
+.group-34 {
+  align-items: flex-start;
+  background-color: var(--mist-gray);
+  border-radius: 10px;
+  display: flex;
+  height: 125px;
+  left: 0;
+  min-width: 130px;
+  padding: 48.8px 50.1px;
+  position: absolute;
+  top: 1px;
+}
+
+.add-17 {
+  height: 25px;
+  width: 25px;
+}
+
+.group-22 {
+  align-items: flex-start;
+  display: flex;
+  height: 18px;
+  left: 145px;
+  min-width: 80px;
+  position: absolute;
+  top: 98px;
+}
+
+.message-1 {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 4px;
+  white-space: nowrap;
+}
+
+.calendar-8 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-21@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.rectangle-61 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 341px;
+}
+
+.x70-14 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.title {
+  height: 25px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+  width: 497px;
+}
+
+.star {
+  height: 16px;
+  left: 277px;
+  position: absolute;
+  top: 98px;
+  width: 16px;
+}
+
+.heart {
+  height: 16px;
+  left: 301px;
+  position: absolute;
+  top: 98px;
+  width: 16px;
+}
+
+.component-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 127px;
+  left: 354px;
+  min-width: 645px;
+  position: absolute;
+  top: 0;
+}
+
+.add-16 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar-7 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-13@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.x70-13 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.image-3 {
+  height: 120px;
+  left: 710px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 126px;
+}
+
+.image {
+  height: 120px;
+  left: 356px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 126px;
+}
+
+.image-1 {
+  height: 120px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 126px;
+}
+
+.component {
+  align-items: flex-start;
+  display: flex;
+  height: 127px;
+  left: 0;
+  min-width: 645px;
+  position: absolute;
+  top: 0;
+}
+
+.x70-12 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.calendar-6 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-5@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.add-15 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70-17 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-20 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar-11 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-19@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.image-2 {
+  height: 120px;
+  left: 710px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 126px;
+}
+
+.x70-16 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.calendar-10 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-11@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.add-19 {
+  height: 25px;
+  width: 25px;
+}
+
+.image-31 {
+  height: 120px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 126px;
+}
+
+.add-18 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar-9 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-3@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.x70-15 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.image-24 {
+  height: 120px;
+  left: 356px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 126px;
+}
+
+.add-10 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar-4 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-9@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.x70-7 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.x70-8 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-11 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar-5 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-17@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.image-7 {
+  height: 120px;
+  left: 711px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 125px;
+}
+
+.x70-6 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-9 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar-3 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-1@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.add-8 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar-2 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-16@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.add-6 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.image-20 {
+  height: 120px;
+  left: 356px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 126px;
+}
+
+.calendar-1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-8@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.x70-5 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-7 {
+  height: 25px;
+  width: 25px;
+}
+
+.add-12 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70-9 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.x70-11 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-14 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70-10 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-13 {
+  height: 25px;
+  width: 25px;
+}
+
+.image-25 {
+  height: 120px;
+  left: 711px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 126px;
+}
+
+.pagination {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 76px;
+  margin-right: 439.04px;
+  margin-top: 52px;
+  min-width: 458px;
+  padding: 0 79.5px;
+}
+
+.text-button-fixed {
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  margin-left: 4px;
+  overflow: hidden;
+  width: 42px;
+}
+
+.button-fixed-1 {
+  height: 41px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  text-align: center;
+  width: 42px;
+}
+
+.text-button-fixed-3 {
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  overflow: hidden;
+  width: 40px;
+}
+
+.button-fixed-2 {
+  height: 41px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  text-align: center;
+  width: 40px;
+}
+
+.button {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  margin-left: 4px;
+  overflow: hidden;
+  padding: 6px 10px;
+  width: 71px;
+}
+
+.label-5 {
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-left: 14px;
+  min-height: 16px;
+  min-width: 37px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.double-icon-button {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  height: 38px;
+  min-width: 116px;
+}
+
+.overlap-group24 {
+  height: 42px;
+  margin-bottom: -4px;
+  position: relative;
+  width: 116px;
+}
+
+.frame-5 {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  left: 0;
+  padding: 0 18.1px;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.grid {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  min-width: 22px;
+  padding: 0 2px;
+}
+
+.flex-col-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 20px;
+  width: 8px;
+}
+
+.rectangle {
+  height: 8px;
+  width: 8px;
+}
+
+.rectangle-1 {
+  height: 8px;
+  margin-top: 2px;
+  width: 8px;
+}
+
+.rectangle-copy-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+  min-height: 20px;
+  width: 8px;
+}
+
+.frame-5-1 {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  left: 58px;
+  padding: 0 17px;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.list {
+  height: 24px;
+  width: 24px;
+}
+
+.divider {
+  height: 38px;
+  left: 57px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+
+.x70-2 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-2 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add {
+  height: 25px;
+  width: 25px;
+}
+
+.add-1 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70-1 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.image-13 {
+  height: 122px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 127px;
+}
+
+.image-15 {
+  height: 121px;
+  left: 709px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 128px;
+}
+
+.x70-18 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-21 {
+  height: 25px;
+  width: 25px;
+}
+
+.calendar-12 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-7@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.image-34 {
+  height: 120px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 126px;
+}
+
+.image-35 {
+  height: 120px;
+  left: 357px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 126px;
+}
+
+.calendar-14 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-23@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.add-23 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70-20 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.image-36 {
+  height: 120px;
+  left: 710px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 126px;
+}
+
+.add-22 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70-19 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.calendar-13 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/629f63a3ff74db735ffcdf0a/releases/629f63b4f5f74683c3f201ea/img/calendar-15@2x.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.add-3 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70-3 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-4 {
+  height: 25px;
+  width: 25px;
+}
+
+.x70-4 {
+  height: 12px;
+  left: 148px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 37px;
+  white-space: nowrap;
+  width: 29px;
+}
+
+.add-5 {
+  height: 25px;
+  width: 25px;
+}

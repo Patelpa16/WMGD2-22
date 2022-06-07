@@ -1,4 +1,3 @@
-
 .navigation-bar {
   //align-items: center;
   //background-color: var(--mine-shaft);
@@ -13,7 +12,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 24px;  
+  gap: 24px;
   height: 80px;
   background: #333333;
 }
@@ -42,6 +41,7 @@
   display: flex;
   margin-left: 16px;
   min-width: 436px;
+  color: #EBEBEB;
 }
 
 .tab-3 {
@@ -170,14 +170,14 @@
 
   box-sizing: border-box;
 
-height: 40px;
+  height: 40px;
 
-/* White */
+  /* White */
 
-background: #FFFFFF;
-/* #EBEBEB */
+  background: #FFFFFF;
+  /* #EBEBEB */
 
-border: 2px solid #EBEBEB;
+  border: 2px solid #EBEBEB;
 
 }
 
@@ -199,14 +199,14 @@ border: 2px solid #EBEBEB;
   display: flex;
   flex-direction: column;
   justify-content: center;
-/* Body */
+  /* Body */
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #A6B1E1;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #A6B1E1;
 }
 
 .single-icon-button {
