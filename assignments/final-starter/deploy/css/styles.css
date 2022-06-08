@@ -668,7 +668,7 @@ template {
   overflow: hidden;
   width: 221px; }
 
-.button {
+.button-comm {
   height: 103px;
   letter-spacing: 0;
   line-height: 16px;
@@ -768,7 +768,13 @@ template {
   display: flex;
   height: 102px;
   overflow: hidden;
-  width: 221px; }
+  width: 221px;
+  color: white;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 16px; }
 
 .group-1 {
   align-items: flex-start;
@@ -1351,7 +1357,18 @@ template {
   line-height: 16px;
   margin-top: -1px;
   text-align: center;
-  width: 221px; }
+  width: 221px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 16px;
+  /* or 67% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* White */
+  color: #FFFFFF; }
 
 .desktop-mac-button-primary-8 {
   align-items: flex-start;
@@ -2008,20 +2025,6 @@ body {
   align-items: center;
   justify-content: center; }
 
-.text-button-fixed,
-.text-button-fixed1 {
-  position: absolute;
-  top: 783px;
-  left: 16px;
-  border-radius: 40px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #dcd6f7;
-  width: 134px;
-  height: 42px;
-  overflow: hidden;
-  text-align: center;
-  font-size: 16px;
-  color: #fff; }
-
 .text-button-fixed1 {
   top: 782px;
   left: 160px; }
@@ -2175,15 +2178,7 @@ body {
   height: 24px;
   flex-shrink: 0; }
 
-.search-bar-div,
 .single-icon-button {
-  background-color: #fff;
-  border: 2px solid #ebebeb;
-  box-sizing: border-box;
-  height: 40px; }
-
-.single-icon-button {
-  position: absolute;
   top: 0;
   right: 0;
   border-radius: 0 4px 4px 0;

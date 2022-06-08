@@ -133,7 +133,7 @@
   width: 221px;
 }
 
-.button {
+.button-comm {
   height: 103px;
   letter-spacing: 0;
   line-height: 16px;
@@ -243,6 +243,13 @@
   height: 102px;
   overflow: hidden;
   width: 221px;
+
+  color: white;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 16px;
 }
 
 .group-1 {
@@ -961,6 +968,21 @@
   margin-top: -1px;
   text-align: center;
   width: 221px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 16px;
+  /* or 67% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+  color: #FFFFFF;
 }
 
 .desktop-mac-button-primary-8 {
