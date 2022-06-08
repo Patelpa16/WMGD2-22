@@ -637,7 +637,7 @@ template {
   flex-direction: column;
   justify-content: center; }
 
-.group-24 {
+.community__group {
   align-items: center;
   margin-top: 49px;
   min-height: 252px;
@@ -812,7 +812,7 @@ template {
   top: 0;
   width: 612px; }
 
-.frame-26 {
+.makingconnections {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -869,7 +869,7 @@ template {
   line-height: 32px;
   color: #2E2885; }
 
-.frame-82 {
+.localevent {
   align-items: flex-start;
   flex-direction: column;
   min-height: 711px;
@@ -900,7 +900,7 @@ template {
   flex-direction: column;
   justify-content: center; }
 
-.frame-81 {
+.menu {
   margin-top: 49px;
   min-width: 1178px;
   align-items: center;

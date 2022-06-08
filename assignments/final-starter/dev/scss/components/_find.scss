@@ -92,7 +92,7 @@
   justify-content: center;
 }
 
-.group-24 {
+.community__group {
   align-items: center;
   // display: flex;
   // flex-direction: column;
@@ -299,7 +299,7 @@
   width: 612px;
 }
 
-.frame-26 {
+.makingconnections {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -369,7 +369,7 @@
 }
 
 
-.frame-82 {
+.localevent {
   align-items: flex-start;
   // display: flex;
   flex-direction: column;
@@ -413,7 +413,7 @@
   justify-content: center;
 }
 
-.frame-81 {
+.menu {
   // align-items: flex-start;
   // display: flex;
   margin-top: 49px;
@@ -1142,7 +1142,7 @@
 
 
 
-.back-to-top{
+.back-to-top {
   align-items: flex-start;
   border: 2px solid $awfulpink;
   border-radius: 8px;
@@ -1154,36 +1154,36 @@
 
 }
 
-.back-to-top-1{
-height: 43px;
-letter-spacing: 0;
-margin-top: -2px;
-width: 221px;
+.back-to-top-1 {
+  height: 43px;
+  letter-spacing: 0;
+  margin-top: -2px;
+  width: 221px;
 
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: -1px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: -1px;
 
-/* button text small */
+  /* button text small */
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 16px;
-/* or 114% */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
 
-display: flex;
-align-items: center;
-text-align: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-/* Eggplant */
+  /* Eggplant */
 
-color: $eggplant;
+  color: $eggplant;
 }
 
-.back-to-top-0{
+.back-to-top-0 {
   margin-left: 1000px;
   margin-bottom: 45px;
 }
