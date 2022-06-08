@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
     "\/deploy\/categories.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -698,6 +706,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/public\/composition-1-lm.png" : {
+      "ft" : 32768,
+      "iS" : 88842,
+      "oA" : 0,
+      "oAP" : "\/deploy\/public\/composition-1-lm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/public\/divider.svg" : {
       "ft" : 2097152,

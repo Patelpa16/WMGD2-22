@@ -567,10 +567,9 @@ template {
 .frame-22 {
   align-items: center;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-left: 1px;
-  margin-top: 72px;
-  min-width: 1169px; }
+  margin-top: 72px; }
 
 .group-21 {
   align-items: flex-start;
@@ -585,7 +584,6 @@ template {
   margin-top: 48px;
   min-height: 195px;
   text-align: right;
-  width: 90%;
   /* body */
   font-family: 'Open Sans';
   font-style: normal;
@@ -789,7 +787,7 @@ template {
   background: #5012B5;
   border-radius: 40px; }
 
-.frame-55 {
+.making-connection {
   display: flex;
   margin-right: 0;
   margin-top: 72px;
@@ -1165,6 +1163,24 @@ template {
   margin-top: 48px;
   min-width: 1170px; }
 
+.group-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 48px;
+  min-width: 1170px; }
+
+.group-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 48px;
+  min-width: 1170px; }
+
+.group-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 48px;
+  min-width: 1170px; }
+
 .desktop-mac-button-primary-4 {
   align-items: flex-start;
   display: flex;
@@ -1403,6 +1419,78 @@ template {
   font-size: 36px;
   align-items: center;
   padding-left: 75px; }
+
+.frame-67 {
+  align-items: center;
+  margin-right: 0px;
+  display: flex;
+  margin-top: 72px;
+  min-width: 1170px;
+  justify-content: flex-end;
+  margin-left: 1px;
+  margin-top: 72px;
+  min-width: 1169px; }
+
+.overlap-groupt {
+  height: 493px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 1201px; }
+
+.composition-1-lm {
+  height: 493px;
+  left: 442px;
+  position: absolute;
+  top: 0;
+  width: 760px; }
+
+.frame-66 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 170px;
+  top: 162px;
+  width: 458px; }
+
+.whether-its-buying-a-1 {
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: 48px;
+  width: 458px;
+  margin-left: 2.46px;
+  min-height: 93px;
+  text-align: right;
+  letter-spacing: 0;
+  margin-top: 48px;
+  min-height: 195px;
+  text-align: left;
+  width: 90%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #2E2885; }
+
+.get-to-know-philly {
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: -1px;
+  white-space: nowrap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #2E2885; }
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .community_text {
   position: absolute;
