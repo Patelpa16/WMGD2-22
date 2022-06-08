@@ -653,7 +653,7 @@ body {
 //     top: 783px;
 //     left: 16px;
 //     border-radius: 40px;
-//     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #dcd6f7;
+//     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), $bluecream;
 //     width: 134px;
 //     height: 42px;
 //     overflow: hidden;
@@ -862,7 +862,7 @@ body {
     border-radius: 4px;
     width: 384px;
     overflow: hidden;
-    color: #a6b1e1;
+    color: $cream;
 }
 
 .avatar-icon,
@@ -1103,7 +1103,7 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 16px;
-    color: #a6b1e1;
+    color: $cream;
 }
 
 .pagination-div>*+* {

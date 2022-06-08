@@ -2319,7 +2319,7 @@ body {
   border-radius: 4px;
   width: 384px;
   overflow: hidden;
-  color: #a6b1e1; }
+  color: #A6B1E1; }
 
 .avatar-icon,
 .search-bar-div,
@@ -2530,7 +2530,7 @@ body {
   justify-content: center;
   text-align: center;
   font-size: 16px;
-  color: #a6b1e1; }
+  color: #A6B1E1; }
 
 .pagination-div > * + * {
   margin-left: 4px; }
