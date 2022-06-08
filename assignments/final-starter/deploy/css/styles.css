@@ -444,7 +444,7 @@ template {
   height: 40px;
   /* White */
   background: #FFFFFF;
-  /* #EBEBEB */
+  /* $offwhite */
   border: 2px solid #EBEBEB; }
 
 .search {
@@ -1498,7 +1498,7 @@ template {
 
 .back-to-top {
   align-items: flex-start;
-  border: 2px solid #f61067;
+  border: 2px solid #F61067;
   border-radius: 8px;
   display: flex;
   height: 42px;
@@ -2385,7 +2385,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   font-size: 16px;
-  color: #ebebeb; }
+  color: #EBEBEB; }
 
 .navigation-bar-div > * + * {
   margin-left: 16px; }
@@ -2418,7 +2418,7 @@ body {
   justify-content: center;
   text-align: center;
   font-size: 16px;
-  color: #ebebeb; }
+  color: #EBEBEB; }
 
 .image-20-icon,
 .image-7-icon {

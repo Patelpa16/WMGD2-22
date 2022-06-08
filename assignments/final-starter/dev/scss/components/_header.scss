@@ -41,7 +41,7 @@
   display: flex;
   margin-left: 16px;
   min-width: 436px;
-  color: #EBEBEB;
+  color: $offwhite;
 }
 
 .tab-3 {
@@ -53,7 +53,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 86px;
-  color: #EBEBEB;
+  color: $offwhite;
 }
 
 .label-3 {
@@ -74,7 +74,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 63px;
-  color: #EBEBEB;
+  color: $offwhite;
 }
 
 .label-4 {
@@ -95,7 +95,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 75px;
-  color: #EBEBEB;
+  color: $offwhite;
 }
 
 .label-2 {
@@ -115,7 +115,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 98px;
-  color: #EBEBEB;
+  color: $offwhite;
 }
 
 .label {
@@ -126,7 +126,7 @@
   text-align: center;
   white-space: nowrap;
   text-decoration: none;
-  color: #EBEBEB;
+  color: $offwhite;
 }
 
 .tab-1 {
@@ -138,7 +138,7 @@
   overflow: hidden;
   padding: 10px 8px;
   width: 50px;
-  color: #EBEBEB;
+  color: $offwhite;
 }
 
 .label-1 {
@@ -177,9 +177,9 @@
   /* White */
 
   background: $white;
-  /* #EBEBEB */
+  /* $offwhite */
 
-  border: 2px solid #EBEBEB;
+  border: 2px solid $offwhite;
 
 }
 
