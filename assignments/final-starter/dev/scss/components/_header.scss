@@ -5,7 +5,7 @@
   //height: 80px;
   //min-width: 1440px;
   //padding: 0 31.5px;
-  //background: #333333;
+  //background: $gray;
 
   text-decoration: none;
   display: flex;
@@ -14,7 +14,7 @@
   align-items: center;
   gap: 24px;
   height: 80px;
-  background: #333333;
+  background: $gray;
 }
 
 .white-space-1 {
@@ -176,7 +176,7 @@
 
   /* White */
 
-  background: #FFFFFF;
+  background: $white;
   /* #EBEBEB */
 
   border: 2px solid #EBEBEB;
