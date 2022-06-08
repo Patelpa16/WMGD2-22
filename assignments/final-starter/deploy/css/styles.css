@@ -564,7 +564,7 @@ template {
   /* identical to box height, or 375% */
   color: #EBEBEB; }
 
-.frame-22 {
+.map-cam {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -1648,7 +1648,7 @@ body {
   left: 0;
   border-radius: 10px;
   background-color: #fff;
-  border: 2px solid #2e2885;
+  border: 2px solid #2E2885;
   box-sizing: border-box; }
 
 .title-b {
@@ -2484,7 +2484,7 @@ body {
   border-radius: 4px;
   width: 40px;
   height: 40px;
-  color: #2e2885; }
+  color: #2E2885; }
 
 .arrow-right-icon,
 .text-button-fixed2,
@@ -2513,7 +2513,7 @@ body {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  color: #2e2885; }
+  color: #2E2885; }
 
 .button-div > * + * {
   margin-left: 8px; }
@@ -2543,5 +2543,5 @@ body {
   overflow: hidden;
   text-align: left;
   font-size: 11px;
-  color: #2e2885;
+  color: #2E2885;
   font-family: Open Sans; }

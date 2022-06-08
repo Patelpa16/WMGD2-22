@@ -78,7 +78,7 @@ body {
     left: 0;
     border-radius: 10px;
     background-color: #fff;
-    border: 2px solid #2e2885;
+    border: 2px solid $eggplant;
     box-sizing: border-box;
 }
 
@@ -1051,7 +1051,7 @@ body {
     border-radius: 4px;
     width: 40px;
     height: 40px;
-    color: #2e2885;
+    color: $eggplant;
 }
 
 .arrow-right-icon,
@@ -1084,7 +1084,7 @@ body {
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    color: #2e2885;
+    color: $eggplant;
 }
 
 .button-div>*+* {
@@ -1118,6 +1118,6 @@ body {
     overflow: hidden;
     text-align: left;
     font-size: 11px;
-    color: #2e2885;
+    color: $eggplant;
     font-family: Open Sans;
 }

@@ -1,4 +1,4 @@
-.frame-22 {
+.map-cam {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -79,7 +79,7 @@
 
   /* Eggplant */
 
-  color: #2E2885;
+  color: $eggplant;
   padding-left: 75px;
 
   margin-left: 1px;
@@ -400,7 +400,7 @@
 
   // display: flex;
   // align-items: center;
-  color: #2E2885;
+  color: $eggplant;
 
   display: flex;
   align-items: center;
@@ -886,7 +886,7 @@
 
   /* Eggplant */
 
-  color: #2E2885;
+  color: $eggplant;
 }
 
 .button-5 {
@@ -923,7 +923,7 @@
 
   /* Eggplant */
 
-  color: #2E2885;
+  color: $eggplant;
 }
 
 .text-button-fixed-5 {
@@ -1038,7 +1038,7 @@
 
   // display: flex;
   // align-items: center;
-  color: #2E2885;
+  color: $eggplant;
 
   display: flex;
   margin-left: 1px;
@@ -1115,7 +1115,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  color: #2E2885;
+  color: $eggplant;
 }
 
 .get-to-know-philly {
@@ -1131,7 +1131,7 @@
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #2E2885;
+  color: $eggplant;
 }
 
 .valign-text-middle {
@@ -1180,7 +1180,7 @@ text-align: center;
 
 /* Eggplant */
 
-color: #2E2885;
+color: $eggplant;
 }
 
 .back-to-top-0{
