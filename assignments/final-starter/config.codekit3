@@ -609,7 +609,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_buttons.scss" : {
+    "\/dev\/scss\/components\/_communitypanelleft.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -618,7 +618,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_buttons.css",
+      "oAP" : "\/dev\/scss\/components\/_communitypanelleft.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
