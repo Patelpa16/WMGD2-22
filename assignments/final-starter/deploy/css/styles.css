@@ -1161,7 +1161,8 @@ template {
   align-items: flex-start;
   display: flex;
   margin-top: 48px;
-  min-width: 1170px; }
+  min-width: 1170px;
+  justify-content: center; }
 
 .group-3 {
   align-items: flex-start;
@@ -1350,7 +1351,8 @@ template {
   align-items: flex-start;
   display: flex;
   height: 103px;
-  min-width: 1170px; }
+  min-width: 1170px;
+  justify-content: center; }
 
 .desktop-mac-button-primary {
   align-items: flex-start;
@@ -1491,6 +1493,38 @@ template {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+
+.back-to-top {
+  align-items: flex-start;
+  border: 2px solid #f61067;
+  border-radius: 8px;
+  display: flex;
+  height: 42px;
+  margin-top: 48px;
+  overflow: hidden;
+  width: 221px; }
+
+.back-to-top-1 {
+  height: 43px;
+  letter-spacing: 0;
+  margin-top: -2px;
+  width: 221px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: -1px;
+  /* button text small */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Eggplant */
+  color: #2E2885; }
 
 .community_text {
   position: absolute;
