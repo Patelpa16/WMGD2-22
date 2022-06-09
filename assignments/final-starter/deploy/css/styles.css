@@ -344,7 +344,9 @@ template {
   min-height: 16px;
   min-width: 70px;
   text-align: center;
-  white-space: nowrap; }
+  white-space: nowrap;
+  text-decoration: none;
+  color: #EBEBEB; }
 
 .tab-4 {
   align-items: flex-start;
@@ -363,7 +365,9 @@ template {
   min-height: 16px;
   min-width: 47px;
   text-align: center;
-  white-space: nowrap; }
+  white-space: nowrap;
+  text-decoration: none;
+  color: #EBEBEB; }
 
 .tab-2 {
   align-items: flex-start;
@@ -382,7 +386,9 @@ template {
   min-height: 16px;
   min-width: 59px;
   text-align: center;
-  white-space: nowrap; }
+  white-space: nowrap;
+  text-decoration: none;
+  color: #EBEBEB; }
 
 .tab {
   align-items: flex-start;
@@ -421,7 +427,9 @@ template {
   min-height: 16px;
   min-width: 34px;
   text-align: center;
-  white-space: nowrap; }
+  white-space: nowrap;
+  text-decoration: none;
+  color: #EBEBEB; }
 
 .navigation-bar-1 {
   height: 72px;
